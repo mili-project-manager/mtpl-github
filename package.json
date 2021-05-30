@@ -1,0 +1,39 @@
+{
+  "name": "@mtpl/github",
+  "version": "0.0.1",
+  "description": "The template for github",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ca": "git add -A && git-cz -av",
+    "commit": "git-cz",
+    "release": "standard-version",
+    "release:alpha": "standard-version --prerelease alpha",
+    "release:first": "standard-version --first-release",
+    "postpublish": "git push"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/mili-project-manager/mtpl-github.git"
+  },
+  "keywords": [
+    "mili",
+    "template",
+    "mtpl",
+    "github"
+  ],
+  "author": "Val.istar.Guo <val.istar.guo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mili-project-manager/mtpl-github/issues"
+  },
+  "homepage": "https://github.com/mili-project-manager/mtpl-github#readme",
+  "devDependencies": {
+    "@commitlint/cli": "^9.1.1",
+    "@commitlint/config-conventional": "^9.1.1",
+    "commitizen": "^4.1.2",
+    "cz-conventional-changelog": "^3.2.0",
+    "husky": "^4.2.5",
+    "standard-version": "^8.0.2"
+  }
+}
