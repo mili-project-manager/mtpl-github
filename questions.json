@@ -1,0 +1,10 @@
+[
+  {
+    "type": "checkbox",
+    "name": "actions",
+    "message": "Enable github actions",
+    "choices": [
+      "codeql-analysis"
+    ]
+  }
+]

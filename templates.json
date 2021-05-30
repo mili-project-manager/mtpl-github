@@ -12,6 +12,23 @@
     ]
   },
   {
+    "path": ".github/workflows/codeql-analysis.yml",
+    "handlers": [
+      {
+        "name": "ignore",
+        "options": {
+          "eval": "resource.repository.isGitHubRepo === false"
+        }
+      },
+      {
+        "name": "delete",
+        "options": {
+          "eval": "!resource.answers.actions.includes('codeql-analysis')"
+        }
+      }
+    ]
+  },
+  {
     "path": ".github/**",
     "handlers": [
       {
