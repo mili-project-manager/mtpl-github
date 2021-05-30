@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+### [0.0.3](https://github.com/mili-project-manager/mtpl-github/compare/v0.0.2...v0.0.3) (2021-05-30)
+
+
+### Features
+
+* enable select actions ([f34b9ff](https://github.com/mili-project-manager/mtpl-github/commit/f34b9ffa45cc96ce1157a84a71de38600578c4ed))
+
 ### [0.0.2](https://github.com/mili-project-manager/mtpl-github/compare/v0.0.1...v0.0.2) (2021-05-30)
 
 

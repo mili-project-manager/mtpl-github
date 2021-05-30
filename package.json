@@ -1,6 +1,6 @@
 {
   "name": "@mtpl/github",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "The template for github",
   "main": "index.js",
   "scripts": {
